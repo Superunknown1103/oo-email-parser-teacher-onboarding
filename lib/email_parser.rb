@@ -5,6 +5,6 @@
 
 class EmailParser
   def parse(emails)
-    
+    return emails.split(' ');
   end
 end
